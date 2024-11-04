@@ -150,25 +150,42 @@ o Build a Power BI dashboard that visualizes key customer segments,
 cancellations, and subscription trends. Include slicers for interactive analysis
 
 
+**Data Analysis**
+
+
+Analyze customer data using pivot tables to find subscription patterns
+
+1. Subscription type by revenue
+
+
+![Screenshot (595)](https://github.com/user-attachments/assets/c75baaa3-82ba-4c0f-8223-bf0211c6ae9c)
+
+Insight : Basic brings in more revenue for the business due to it affordability .
+
+More marketing strategies should be adopted to maximize this subsciption type as customer"s preference.
 
 
 
 
+2. Subscription date by revenue
+
+
+![Screenshot (594)](https://github.com/user-attachments/assets/e1d7d063-1ecc-4208-978c-751bbafd669a)
+
+
+Insight: more revenue was made in 2022 than 2023.
+
+Promo and exciting offers can be made to attract customers who have stopped subscribing.
 
 
 
+3. Region by revenue
 
+![Screenshot (593)](https://github.com/user-attachments/assets/f4809c79-d052-4ad3-bd1b-e0f91f84738c)
 
+Insight : The difference in revenue made from the regions isn"t outrageous.
 
-
-
-
-
-
-
-
-
-
+All region should be given equal marketing and inventory assistance.
 
 
 
