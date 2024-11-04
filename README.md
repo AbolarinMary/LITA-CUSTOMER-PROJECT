@@ -216,6 +216,115 @@ All region should be given equal marketing and inventory assistance.
 
 
 
+SQL
+
+ **Total number of customers from each region.**
+
+
+
+```sql
+SELECT Region, 
+COUNT(CustomerID) AS TotalCustomers
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+GROUP BY Region
+Order by TotalCustomers desc
+```
+
+
+
+
+
+
+**Most popular subscription type by the number of customers.**
+
+
+```sql
+SELECT Top 1 SubscriptionType, 
+COUNT(CustomerID) AS CustomerCount
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+GROUP BY SubscriptionType
+ORDER BY CustomerCount DESC
+```
+
+
+Find customers who canceled their subscription within 6 months.
+
+```sql
+SELECT CustomerID, CustomerName, 
+DATEDIFF(Month, SubscriptionStart, SubscriptionEnd) AS DurationInMonth
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+WHERE Canceled = '1'
+  AND DATEDIFF(Month, SubscriptionStart, SubscriptionEnd)
+```
+
+
+Insight: No customer cancelled their subscription during the period in view
+
+
+
+
+**calculate the average subscription duration for all customers.**
+
+```sql
+SELECT AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) 
+AS AverageSubscriptionDuration
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+```
+
+Observation : the average subscription duration is 365 days.
+
+
+**Find customers with subscriptions longer than 12 months**
+
+
+```sql
+SELECT CustomerID, CustomerName
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+WHERE DATEDIFF(Month, SubscriptionStart, SubscriptionEnd) > 12
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
