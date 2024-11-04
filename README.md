@@ -179,16 +179,38 @@ Promo and exciting offers can be made to attract customers who have stopped subs
 
 
 
-3. Region by revenue
+
+**Calculate the average subscription duration**
+
+Average subsciption duration is 365 days
+
+![Screenshot (602)](https://github.com/user-attachments/assets/0901b693-21f8-4910-b139-4b629f03c6b6)
+
+
+
+**Identify the most popular subscription types**
+
+The Basic subscription is the clear favorite among customers, with 16,921 customers subscribing.
+
+
+![Screenshot (603)](https://github.com/user-attachments/assets/80da35cd-54fb-4a98-99cd-cdb21ed4b475)
+
+
+![Screenshot (604)](https://github.com/user-attachments/assets/00305dd9-d64e-4acc-8b6f-bad0ac33d767)
+
+
+
+**Create any other interesting reports.
+**
+
+
+ Region by revenue
 
 ![Screenshot (593)](https://github.com/user-attachments/assets/f4809c79-d052-4ad3-bd1b-e0f91f84738c)
 
 Insight : The difference in revenue made from the regions isn"t outrageous.
 
 All region should be given equal marketing and inventory assistance.
-
-
-
 
 
 
