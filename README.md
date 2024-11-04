@@ -231,6 +231,8 @@ Order by TotalCustomers desc
 ```
 
 
+![Screenshot (607)](https://github.com/user-attachments/assets/2fdcdf22-0288-43b6-9b73-06a21318a624)
+
 
 
 
@@ -283,16 +285,47 @@ FROM [dbo].[LITA Capstone Dataset CustomerData]
 WHERE DATEDIFF(Month, SubscriptionStart, SubscriptionEnd) > 12
 ```
 
+No customer had subscription that lasted more than 12 months.
+
+
+**calculate total revenue by subscription type.
+**
+
+```sql
+SELECT SubscriptionType, SUM(Revenue) AS TotalRevenue
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+GROUP BY SubscriptionType
+```
+
+
+![Screenshot (608)](https://github.com/user-attachments/assets/8d295ecb-7474-4a3c-84ef-8d82742d8a96)
 
 
 
 
+Find the top 3 regions by subscription cancellations.
+
+
+```sql
+SELECT Region, COUNT(*) AS CancellationCount
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+WHERE Canceled = 1  
+GROUP BY Region
+ORDER BY CancellationCount DESC
+OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY
+```
 
 
 
+**Find the total number of active and canceled subscriptions.**
 
 
-
+```sql
+SELECT 
+    SUM(CASE WHEN Canceled = 0 THEN 1 ELSE 0 END) AS ActiveSubscriptions,
+    SUM(CASE WHEN Canceled = 1 THEN 1 ELSE 0 END) AS CancelledSubscriptions
+FROM [dbo].[LITA Capstone Dataset CustomerData]
+```
 
 
 
