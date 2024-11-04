@@ -327,6 +327,16 @@ Insight : The difference in revenue made from the regions isn"t outrageous.
 All region should be given equal marketing and inventory assistance.
 
 
+Other interesting report
+
+Sum of revenue by region showing cancelled subscriptions
+
+![Screenshot (612)](https://github.com/user-attachments/assets/92f47b75-8f5f-4273-8b44-d623b79b7bbf)
+
+
+
+
+
 
 
 
