@@ -722,6 +722,18 @@ Building a strong local presence can enhance brand loyalty among existing custom
 **
 
 
+Conclusion
+
+The analysis of subscription data reveals that the Basic subscription is the most popular among customers, with no cancellations in the first year indicating strong satisfaction and effective onboarding. 
+
+However,cancellations, highlights the need for targeted strategies to improve customer engagement. 
+
+To enhance loyalty and retention, the organization should implement initiatives such as loyalty programs and personalized experiences. 
+
+Ongoing feedback and market monitoring will be crucial for maintaining relevance. Overall, while retention rates are high, a customer-centric approach will be essential for continued growth and success in a
+
+competitive market.
+
 
 
 
