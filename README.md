@@ -34,9 +34,15 @@ Conclusion
 
 
 
+
+
+
+
 **Project Summary**
 
 This project outlines a comprehensive approach to analyzing customer data for a subscription service. Here’s a detailed plan for each phase of the project, from Excel analysis to SQL queries and Power BI visualization.
+
+
 
 
 **Project Objectives**
@@ -61,10 +67,14 @@ Track renewal rates and identify factors that contribute to customer retention
 **
 
 
+
+
 **Data Source**
 
 
 The datasets of this project was provided by ladies in tech africa as an assignment for analytic purpose.
+
+
 
 
 **Dataset**
@@ -82,6 +92,8 @@ Cancelled: Indicates if the subscription was cancelled (TRUE/FALSE)
 Revenue: Total revenue generated from the subscription
 
 Region: Geographic region of the customer
+
+
 
 
 
@@ -105,16 +117,20 @@ Github
 Purpose: Github is iseal for portfolio building and public showcasing of the work done.
 
 
+
+
 **Data Cleaning and Preparation**
 
 
 Data cleaning is a crucial step in the data analysis process that ensures data is accurate, consistent, and complete.
+
 
 Here are some steps you can take to clean data for analysis:
 
  Remove Duplicate
 
 Action: Identified and removed 41,213 duplicate records from the dataset, resulting in 33,787 unique values remaining.
+
 
 Add duration colum
 
@@ -144,7 +160,10 @@ After cleaning
 
 
 
+
+
 **Instructions**
+
 
 
 1. Excel:
@@ -155,6 +174,7 @@ o Calculate the average subscription duration and identify the most popular
 subscription types.
 
 o Create any other interesting reports.
+
 
 
 2. SQL:
@@ -178,16 +198,22 @@ o find the top 3 regions by subscription cancellations.
 
 o find the total number of active and canceled subscriptions.
 
+
+
 3. Power BI:
 
 o Build a Power BI dashboard that visualizes key customer segments, 
 cancellations, and subscription trends. Include slicers for interactive analysis
 
 
+
+
 **Data Analysis**
 
 
 Analyze customer data using pivot tables to find subscription patterns
+
+
 
 1. Subscription type by revenue
 
@@ -197,6 +223,8 @@ Analyze customer data using pivot tables to find subscription patterns
 Insight : Basic brings in more revenue for the business due to it affordability .
 
 More marketing strategies should be adopted to maximize this subsciption type as customer"s preference.
+
+
 
 
 
@@ -214,11 +242,16 @@ Promo and exciting offers can be made to attract customers who have stopped subs
 
 
 
+
 **Calculate the average subscription duration**
 
 Average subsciption duration is 365 days
 
 ![Screenshot (602)](https://github.com/user-attachments/assets/0901b693-21f8-4910-b139-4b629f03c6b6)
+
+Observation : Customer's subscribe for a year only.
+Efforts should be made to extend the duration of subscription.
+
 
 
 
@@ -231,6 +264,11 @@ The Basic subscription is the clear favorite among customers, with 16,921 custom
 
 
 ![Screenshot (604)](https://github.com/user-attachments/assets/00305dd9-d64e-4acc-8b6f-bad0ac33d767)
+
+Observation : Basic subscription is customer"s favorite .
+Premium and standard should be given more marketing strategies while maintainig and improving the number of customers on basic subscription.
+
+
 
 
 
@@ -245,6 +283,10 @@ The Basic subscription is the clear favorite among customers, with 16,921 custom
 Insight : The difference in revenue made from the regions isn"t outrageous.
 
 All region should be given equal marketing and inventory assistance.
+
+
+
+
 
 
 
@@ -267,6 +309,12 @@ Order by TotalCustomers desc
 
 ![Screenshot (607)](https://github.com/user-attachments/assets/2fdcdf22-0288-43b6-9b73-06a21318a624)
 
+Observation: There is a balance customer distribution between all regions.
+
+Each region should be given adequate marketing and inventory assistance
+
+
+
 
 
 
@@ -283,6 +331,13 @@ ORDER BY CustomerCount DESC
 ```
 
 
+Observation: basic subscription has highest number of customers
+
+Premium and standard subscription should be given more marketing with enticing promo offers
+
+
+
+
 Find customers who canceled their subscription within 6 months.
 
 ```sql
@@ -295,6 +350,8 @@ WHERE Canceled = '1'
 
 
 Insight: No customer cancelled their subscription during the period in view
+
+This shows customer satisfaction is in line with organizational goal
 
 
 
@@ -309,6 +366,10 @@ FROM [dbo].[LITA Capstone Dataset CustomerData]
 
 Observation : the average subscription duration is 365 days.
 
+Customer satisfaction should be maximized to ensure customers subscribe for more than a year
+
+
+
 
 **Find customers with subscriptions longer than 12 months**
 
@@ -322,6 +383,12 @@ WHERE DATEDIFF(Month, SubscriptionStart, SubscriptionEnd) > 12
 No customer had subscription that lasted more than 12 months.
 
 
+Customer satisfaction should be maximized to ensure customers subscribe for more than a year
+
+
+
+
+
 **calculate total revenue by subscription type.
 **
 
@@ -333,6 +400,9 @@ GROUP BY SubscriptionType
 
 
 ![Screenshot (608)](https://github.com/user-attachments/assets/8d295ecb-7474-4a3c-84ef-8d82742d8a96)
+
+
+Observation: While the basic subscription type made highest revenue,the Premium and Standard types generate significantly less revenue, suggesting either fewer customers or lower pricing
 
 
 
