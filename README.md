@@ -487,6 +487,46 @@ Customer satisfaction should be investigated to stop this trend of subscription 
 
 
 
+Key Findings
+
+
+Exceptional Retention in the East Region 
+
+
+High Cancellation Rates in North, South, and West Regions, highlighting a significant issue with customer retention.
+
+
+
+Insights into the Customer Base:
+
+The North,South, and West regions have substantial customer bases, but the high cancellation rates suggest potential dissatisfaction or competitive challenges that must be addressed.
+
+
+
+Opportunities for Improvement: 
+
+The elevated cancellation numbers in the North, South, and West regions point to an urgent need to explore the reasons behind customer dissatisfaction.
+
+This could involve analyzing customer feedback, conducting surveys, and assessing service offerings to identify problem areas.
+
+
+
+Need for Customized Retention Strategies: 
+
+The differing retention rates across regions indicate a need for tailored strategies to address the unique challenges in the North, South, and West.
+
+These strategies could include improved customer support, loyalty initiatives, and enhancements to services.
+
+
+
+Market Potential: 
+
+The low cancellation rate in the East region offers a chance to replicate this success in other areas.
+
+Analyzing and adapting best practices from the East could help mitigate the higher cancellation rates seen in the North, South, and West regions.
+
+
+
 
 
 
