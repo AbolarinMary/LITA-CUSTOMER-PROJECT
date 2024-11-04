@@ -27,6 +27,64 @@ Track renewal rates and identify factors that contribute to customer retention
 **
 
 
+**Data Source**
+
+
+The datasets of this project was provided by ladies in tech africa as an assignment for analytic purpose.
+
+
+**Dataset**
+
+CustomerID: Unique identifier for each customer
+
+SubscriptionType: Type of subscription (e.g., Basic, Premium, Standard)
+
+SubscriptionStart: Date when the subscription started
+
+SubscriptionEnd: Date when the subscription ended
+
+Cancelled: Indicates if the subscription was cancelled (TRUE/FALSE)
+
+Revenue: Total revenue generated from the subscription
+
+Region: Geographic region of the customer
+
+
+
+
+**Tools Used**
+
+Excel
+
+Purpose: Excel is great for initial data exploration and quick analysis. It allows for easy manipulation of data and visualization through pivot tables and charts.
+
+SQL
+
+Purpose: SQL is ideal for querying large datasets efficiently and performing complex analyses. It provides a robust framework for data manipulation and retrieval.
+
+Power BI
+
+Purpose: Power BI is designed for data visualization and business intelligence, allowing users to create interactive reports and dashboards. It makes it easier to communicate insights derived from data.
+
+Github
+
+Purpose: Github is iseal for portfolio building and public showcasing of the work done.
+
+
+**Data Cleaning and Preparation**
+
+
+Data cleaning is a crucial step in the data analysis process that ensures data is accurate, consistent, and complete.
+
+Here are some steps you can take to clean data for analysis:
+
+ Remove Duplicate
+
+Action: Identified and removed 41,213 duplicate records from the dataset, resulting in 33,787 unique values remaining.
+
+Add duration colum
+
+Action: Subsciption end date - start date
 
 
 
@@ -37,32 +95,59 @@ Track renewal rates and identify factors that contribute to customer retention
 
 
 
+![Screenshot (599)](https://github.com/user-attachments/assets/9f32606d-fecf-428d-b482-48a7d139ac17)
+
+
+Before cleaning
+
+
+![Screenshot (601)](https://github.com/user-attachments/assets/090ff717-cfcd-4f7c-ad7a-e2e18a1d15cf)
+
+
+
+After cleaning
 
 
 
 
+**Instructions**
 
 
+1. Excel:
+
+o Analyze customer data using pivot tables to find subscription patterns.
+
+o Calculate the average subscription duration and identify the most popular 
+subscription types.
+
+o Create any other interesting reports.
 
 
+2. SQL:
+   
 
+Write queries to extract key insights based on the following questions. 
 
+o retrieve the total number of customers from each region.
 
+o find the most popular subscription type by the number of customers.
 
+o find customers who canceled their subscription within 6 months.
 
+o calculate the average subscription duration for all customers.
 
+o find customers with subscriptions longer than 12 months.
 
+o calculate total revenue by subscription type.
 
+o find the top 3 regions by subscription cancellations.
 
+o find the total number of active and canceled subscriptions.
 
+3. Power BI:
 
-
-
-
-
-
-
-
+o Build a Power BI dashboard that visualizes key customer segments, 
+cancellations, and subscription trends. Include slicers for interactive analysis
 
 
 
