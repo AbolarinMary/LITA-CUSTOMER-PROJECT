@@ -79,76 +79,80 @@ Conclusion
 
 
 
-
+---
 Project Summary
 
 This project outlines a comprehensive approach to analyzing customer data for a subscription service. Here’s a detailed plan for each phase of the project, from Excel analysis to SQL queries and Power BI visualization.
+---
 
 
-
-
+---
 **Project Objectives**
 
 
-Analyze customer data to identify patterns in subscription usage and preferences.
+- Analyze customer data to identify patterns in subscription usage and preferences.
 
-Assess how different demographics (e.g., age, region) affect subscription choices and behavior
+- Assess how different demographics (e.g., age, region) affect subscription choices and behavior
 
-Classify customers into meaningful segments based on subscription type, duration, and behavior.
+- Classify customers into meaningful segments based on subscription type, duration, and behavior.
 
-Identify high-value segments for targeted marketing and retention strategies.
+- Identify high-value segments for targeted marketing and retention strategies.
 
-Determine which subscription types are most popular among customers.
+- Determine which subscription types are most popular among customers.
 
-Compute average subscription duration to understand customer loyalty.
+- Compute average subscription duration to understand customer loyalty.
 
-Track renewal rates and identify factors that contribute to customer retention
+- Track renewal rates and identify factors that contribute to customer retention
 
-
-**These objectives aim to enhance understanding of customer dynamics within the subscription service, ultimately leading to better strategies for customer acquisition, retention, and revenue growth.
-**
+These objectives aim to enhance understanding of customer dynamics within the subscription service, ultimately leading to better strategies for customer acquisition, retention, and revenue growth.
 
 
 
 
+---
 **Data Source**
 
 
 The datasets of this project was provided by ladies in tech africa as an assignment for analytic purpose.
 
-
+---
 
 
 **Dataset**
 
-CustomerID: Unique identifier for each customer
+- CustomerID: Unique identifier for each customer
 
-SubscriptionType: Type of subscription (e.g., Basic, Premium, Standard)
+- SubscriptionType: Type of subscription (e.g., Basic, Premium, Standard)
 
-SubscriptionStart: Date when the subscription started
+- SubscriptionStart: Date when the subscription started
 
-SubscriptionEnd: Date when the subscription ended
+- SubscriptionEnd: Date when the subscription ended
 
-Cancelled: Indicates if the subscription was cancelled (TRUE/FALSE)
+- Cancelled: Indicates if the subscription was cancelled (TRUE/FALSE)
 
-Revenue: Total revenue generated from the subscription
+- Revenue: Total revenue generated from the subscription
 
-Region: Geographic region of the customer
-
-
+- Region: Geographic region of the customer
 
 
 
 
+
+---
 **Tools Used**
-
+---
 Excel
 
-Purpose: Excel is great for initial data exploration and quick analysis. It allows for easy manipulation of data and visualization through pivot tables and charts.
+Purpose:
+
+- Excel is great for initial data exploration and quick analysis. It allows for easy manipulation of data and visualization through pivot tables and charts.
+
 
 SQL
 
-Purpose: SQL is ideal for querying large datasets efficiently and performing complex analyses. It provides a robust framework for data manipulation and retrieval.
+Purpose: 
+
+SQL is ideal for querying large datasets efficiently and performing complex analyses. It provides a robust framework for data manipulation and retrieval.
 
 Power BI
 
@@ -174,6 +178,10 @@ Data cleaning is a crucial step in the data analysis process that ensures data i
 
 
 Here are some steps you can take to clean data for analysis:
+
+- Data loading and inspection
+- Handling missing variables
+- -Data cleaning and formatting
 
  Remove Duplicate
 
@@ -209,19 +217,19 @@ After cleaning
 
 
 
-
+---
 **Instructions**
-
+---
 
 
 1. Excel:
 
-o Analyze customer data using pivot tables to find subscription patterns.
+-  Analyze customer data using pivot tables to find subscription patterns.
 
-o Calculate the average subscription duration and identify the most popular 
+-  Calculate the average subscription duration and identify the most popular 
 subscription types.
 
-o Create any other interesting reports.
+-  Create any other interesting reports.
 
 
 
@@ -230,27 +238,27 @@ o Create any other interesting reports.
 
 Write queries to extract key insights based on the following questions. 
 
-o retrieve the total number of customers from each region.
+-  retrieve the total number of customers from each region.
 
-o find the most popular subscription type by the number of customers.
+-  find the most popular subscription type by the number of customers.
 
-o find customers who canceled their subscription within 6 months.
+-  find customers who canceled their subscription within 6 months.
 
-o calculate the average subscription duration for all customers.
+-  calculate the average subscription duration for all customers.
 
-o find customers with subscriptions longer than 12 months.
+-  find customers with subscriptions longer than 12 months.
 
-o calculate total revenue by subscription type.
+- calculate total revenue by subscription type.
 
-o find the top 3 regions by subscription cancellations.
+-  find the top 3 regions by subscription cancellations.
 
-o find the total number of active and canceled subscriptions.
+-  find the total number of active and canceled subscriptions.
 
 
 
 3. Power BI:
 
-o Build a Power BI dashboard that visualizes key customer segments, 
+-  Build a Power BI dashboard that visualizes key customer segments, 
 cancellations, and subscription trends. Include slicers for interactive analysis
 
 
@@ -274,8 +282,8 @@ cancellations, and subscription trends. Include slicers for interactive analysis
 Analyze customer data using pivot tables to find subscription patterns
 
 
-
-1. Subscription type by revenue
+---
+**1. Subscription type by revenue**
 
 
 ![Screenshot (595)](https://github.com/user-attachments/assets/c75baaa3-82ba-4c0f-8223-bf0211c6ae9c)
@@ -288,9 +296,9 @@ More marketing strategies should be adopted to maximize this subsciption type as
 
 
 
-
-2. Subscription date by revenue
-
+---
+**2. Subscription date by revenue**
+---
 
 ![Screenshot (594)](https://github.com/user-attachments/assets/e1d7d063-1ecc-4208-978c-751bbafd669a)
 
@@ -302,7 +310,7 @@ Promo and exciting offers can be made to attract customers who have stopped subs
 
 
 
-
+---
 **Calculate the average subscription duration**
 
 Average subsciption duration is 365 days
@@ -314,7 +322,7 @@ Efforts should be made to extend the duration of subscription.
 
 
 
-
+---
 **Identify the most popular subscription types**
 
 The Basic subscription is the clear favorite among customers, with 16,921 customers subscribing.
@@ -331,12 +339,12 @@ Premium and standard should be given more marketing strategies while maintainig 
 
 
 
+---
+Create any other interesting reports.
 
-**Create any other interesting reports.
-**
 
 
- Region by revenue
+# Region by revenue
 
 ![Screenshot (593)](https://github.com/user-attachments/assets/f4809c79-d052-4ad3-bd1b-e0f91f84738c)
 
@@ -345,9 +353,8 @@ Insight : The difference in revenue made from the regions isn"t outrageous.
 All region should be given equal marketing and inventory assistance.
 
 
-Other interesting report
 
-Sum of revenue by region showing cancelled subscriptions
+**Sum of revenue by region showing cancelled subscriptions**
 
 ![Screenshot (612)](https://github.com/user-attachments/assets/92f47b75-8f5f-4273-8b44-d623b79b7bbf)
 
@@ -361,8 +368,9 @@ Sum of revenue by region showing cancelled subscriptions
 
 
 
-
+---
 SQL
+---
 
  **Total number of customers from each region.**
 
@@ -388,9 +396,9 @@ Each region should be given adequate marketing and inventory assistance
 
 
 
-
+---
 **Most popular subscription type by the number of customers.**
-
+---
 
 ```sql
 SELECT Top 1 SubscriptionType, 
@@ -407,8 +415,9 @@ Premium and standard subscription should be given more marketing with enticing p
 
 
 
-
+---
 Find customers who canceled their subscription within 6 months.
+---
 
 ```sql
 SELECT CustomerID, CustomerName, 
@@ -425,8 +434,10 @@ This shows customer satisfaction is in line with organizational goal
 
 
 
-
+---
 **calculate the average subscription duration for all customers.**
+---
+
 
 ```sql
 SELECT AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) 
@@ -440,8 +451,9 @@ Customer satisfaction should be maximized to ensure customers subscribe for more
 
 
 
-
+---
 **Find customers with subscriptions longer than 12 months**
+---
 
 
 ```sql
@@ -458,9 +470,9 @@ Customer satisfaction should be maximized to ensure customers subscribe for more
 
 
 
-
-**calculate total revenue by subscription type.
-**
+---
+calculate total revenue by subscription type.
+---
 
 ```sql
 SELECT SubscriptionType, SUM(Revenue) AS TotalRevenue
@@ -476,9 +488,9 @@ Observation: While the basic subscription type made highest revenue,the Premium 
 
 
 
-
+---
 Find the top 3 regions by subscription cancellations.
-
+---
 
 ```sql
 SELECT Region, COUNT(*) AS CancellationCount
@@ -495,9 +507,9 @@ OFFSET 0 ROWS FETCH NEXT 3 ROWS ONLY
 
 
 
-
+---
 **Find the total number of active and canceled subscriptions.**
-
+---
 
 ```sql
 SELECT 
@@ -514,22 +526,22 @@ Customer satisfaction should be investigated to stop this trend of subscription 
 
 
 
-
+---
 Key Findings
- 
+ ---
 
 
-High Cancellation Rates in North, South,east and West Regions, highlights a significant issue with customer retention.
+- High Cancellation Rates in North, South,east and West Regions, highlights a significant issue with customer retention.
 
 
 
-Insights into the Customer Base:
+- Insights into the Customer Base:
 
 The North,South,east and West regions have substantial customer bases, but the high cancellation rates suggest potential dissatisfaction or competitive challenges that must be addressed.
 
 
 
-Opportunities for Improvement: 
+- Opportunities for Improvement: 
 
 The elevated cancellation numbers in all regions point to an urgent need to explore the reasons behind customer dissatisfaction.
 
@@ -537,7 +549,7 @@ This could involve analyzing customer feedback, conducting surveys, and assessin
 
 
 
-Need for Customized Retention Strategies: 
+- Need for Customized Retention Strategies: 
 
 The differing retention rates across regions indicate a need for tailored strategies to address the unique challenges in the regions.
 
@@ -545,16 +557,16 @@ These strategies could include improved customer support, loyalty initiatives, a
 
 
 
-Market Potential: 
+- Market Potential: 
 
 Analyzing and adapting best practices f could help mitigate the higher cancellation rates seen in all regions.
 
 
-
+---
 Recommendation
+---
 
-
-1. Enhance Customer Relationship Management:
+-  Enhance Customer Relationship Management:
 
  Invest in a robust customer relationship management (CRM) system to better understand your existing customers.
  
@@ -568,7 +580,7 @@ Recommendation
 
 
 
-2. Personalized Marketing Campaigns:
+-  Personalized Marketing Campaigns:
 
 Develop targeted marketing campaigns that resonate with both existing and potential customers.
 
@@ -589,7 +601,7 @@ Use data analytics to segment your audience and deliver personalized messages th
 
 
 
-3. Loyalty Programs:
+-  Loyalty Programs:
 
 
 Implement a customer loyalty program that rewards repeat purchases with points, discounts, or exclusive offers. 
@@ -608,13 +620,13 @@ This not only incentivizes existing customers to return but also creates an attr
 
 
 
-4. Regular Communication and Updates:
+-  Regular Communication and Updates:
 
 Maintain consistent communication with your customer base through newsletters, social media, and personalized emails. Share updates about new products, features, or promotions to keep customers informed and engaged, which can also encourage referrals to new customers.
 
 
 
-5. Gather and Act on Feedback:
+-  Gather and Act on Feedback:
 
 Regularly solicit feedback from both current and potential customers to identify areas for improvement.
 
@@ -631,7 +643,7 @@ Conduct surveys or focus groups to understand customer needs and preferences, th
 
 
 
-6. Offer Exceptional Customer Support:
+-  Offer Exceptional Customer Support:
 
 Ensure your customer support is readily available and highly responsive. 
 
@@ -649,7 +661,7 @@ Providing multiple channels for assistance (such as chat, email, and phone) can 
 
 
 
-7.Create Engaging Content:
+- Create Engaging Content:
 
 Develop valuable content that addresses customer pain points or interests, such as blogs, tutorials, or webinars. 
 
@@ -668,7 +680,7 @@ This positions your business as an authority in your industry and can attract ne
 
 
 
-8.Referral Incentives: 
+- Referral Incentives: 
 
 Encourage your existing customers to refer friends and family by offering incentives for successful referrals.
 
@@ -686,7 +698,7 @@ This can be discounts, free products, or exclusive access to new offerings, crea
 
 
 
-9.Flexible Pricing Options:
+- Flexible Pricing Options:
 
 Introduce flexible pricing plans or bundling options that cater to different customer segments. 
 
@@ -707,7 +719,7 @@ This can make your products or services more accessible to new customers and pro
 
 
 
-10.Community Engagement:
+-  Community Engagement:
 
 Engage with your local community or industry through events, sponsorships, or partnerships.
 
@@ -717,12 +729,12 @@ Building a strong local presence can enhance brand loyalty among existing custom
 
 
 
-
-**By implementing these strategies, your business can strengthen relationships with existing customers while effectively attracting new clientele, ultimately fostering sustainable growth.
-**
+By implementing these strategies, your business can strengthen relationships with existing customers while effectively attracting new clientele, ultimately fostering sustainable growth.
 
 
+---
 **Conclusion**
+---
 
 The analysis of subscription data reveals that the Basic subscription is the most popular among customers, with no cancellations in the first year indicating strong satisfaction and effective onboarding. 
 
