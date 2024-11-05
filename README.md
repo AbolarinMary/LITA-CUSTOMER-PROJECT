@@ -80,7 +80,7 @@ Conclusion
 
 
 ---
-Project Summary
+**Project Summary**
 
 This project outlines a comprehensive approach to analyzing customer data for a subscription service. Here’s a detailed plan for each phase of the project, from Excel analysis to SQL queries and Power BI visualization.
 
