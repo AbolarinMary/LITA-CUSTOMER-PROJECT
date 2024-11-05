@@ -83,8 +83,8 @@ Conclusion
 Project Summary
 
 This project outlines a comprehensive approach to analyzing customer data for a subscription service. Here’s a detailed plan for each phase of the project, from Excel analysis to SQL queries and Power BI visualization.
----
 
+---
 
 ---
 **Project Objectives**
@@ -170,9 +170,9 @@ Purpose: Github is iseal for portfolio building and public showcasing of the wor
 
 
 
-
+---
 **Data Cleaning and Preparation**
-
+---
 
 Data cleaning is a crucial step in the data analysis process that ensures data is accurate, consistent, and complete.
 
