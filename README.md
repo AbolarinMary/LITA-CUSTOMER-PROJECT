@@ -141,31 +141,38 @@ The datasets of this project was provided by ladies in tech africa as an assignm
 ---
 **Tools Used**
 ---
-Excel
 
-Purpose:
+1. Excel [Download Here](https://www.microsoft.com)
 
-- Excel is great for initial data exploration and quick analysis. It allows for easy manipulation of data and visualization through pivot tables and charts.
+ Purpose:
 
+- For  data cleaning
 
-SQL
+- For data analysis. 
 
-Purpose: 
+-  For easy manipulation of data and visualization through pivot tables and charts.
 
-SQL is ideal for querying large datasets efficiently and performing complex analyses. It provides a robust framework for data manipulation and retrieval.
+ 2. SQL
 
-Power BI
+ Purpose:
 
-Purpose: Power BI is designed for data visualization and business intelligence, allowing users to create interactive reports and dashboards. It makes it easier to communicate insights derived from data.
+-   For querying large datasets efficiently and performing complex analyses. 
 
-Github
-
-Purpose: Github is iseal for portfolio building and public showcasing of the work done.
+-   For data manipulation and retrieval.
 
 
+ 3. Power BI
+
+  Purpose:
+
+- For data visualization and business intelligence, allowing users to create interactive reports and dashboards. It makes it easier to communicate insights derived from data.
+
+ 4.  Github
+
+ Purpose: 
 
 
-
+- Github is ideal for portfolio building and public showcasing of the work done.
 
 
 
