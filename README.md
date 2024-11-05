@@ -1,5 +1,15 @@
 ## LITA-CUSTOMER-PROJECT
 
+# E commerce sales analysis
+
+---
+**Project overview**
+
+
+The primary goal of this project is to analyze and deduce sunscription trends and revenue patterns across various regions and subscription categories to provide actionable insights for strategic decision-making. By identifying key drivers of sales performance, understanding regional and product-specific variances, and forecasting future trends, this analysis will support data-driven decisions for optimizing sales strategies, product offerings, resource allocation, and market expansion.
+
+---
+
 
 `
 Outline
@@ -14,6 +24,8 @@ Project Summary
 `
 Project Objectives
 `
+
+
 
 
 `
@@ -106,6 +118,29 @@ This project outlines a comprehensive approach to analyzing customer data for a 
 
 These objectives aim to enhance understanding of customer dynamics within the subscription service, ultimately leading to better strategies for customer acquisition, retention, and revenue growth.
 
+---
+---
+Methodology
+
+ - Data Collection
+
+   I gatherered historical sales data, including both regional and product-specific data from LITA.The data ensured data consistency across regions and product categories, covering key metrics such as units sold, pricing, and revenue generated.
+
+ - Data Preprocessing
+
+  I  Cleansed and structure the data, handled missing values, outliers, and inconsistencies. This ensures that the data is ready for deep analysis and provides reliable insights.
+
+- Descriptive Analysis
+
+ I Conducted exploratory data analysis (EDA) to summarize key statistics, visualize trends, and identify correlations between regional performance and product sales. This includes regional sales heatmaps, product-specific trend charts, and performance comparisons across region during the period in view .
+ 
+
+ -  Visualization & Reporting
+
+   Present findings using interactive dashboards and detailed reports, showcasing regional and product-specific sales performance and trend graphs.
+  Power BI and excel charts was used   to ensure stakeholders can easily interpret the data.
+
+---
 
 
 
